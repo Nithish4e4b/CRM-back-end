@@ -5,7 +5,7 @@ const dbConfig = require("./app/config/db.config");
 const app = express();
 
 var corsOptions = {
-  origin: "https://4e4b-crm-app.netlify.app/"
+  origin: "https://4e4b-crm-app.netlify.app"
 };
 
 app.use(cors(corsOptions));
